@@ -1,0 +1,18 @@
+{
+  "name": "my-monkey-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "node": "^19.8.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.2",
+    "vite-plugin-monkey": "^3.1.4"
+  }
+}
